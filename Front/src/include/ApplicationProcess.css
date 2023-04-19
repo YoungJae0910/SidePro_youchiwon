@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.aplicationprocess {
+    width: 100%;
+    /* border: 1px solid #000; */
+}
+.aplicationprocess p {
+    padding-left: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+.aplicationprocess div {
+    display: flex;
+    justify-content: center;
+}
+
+.aplicationprocess div ul {
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.aplicationprocess div ul li {
+    width: 240px;
+    height: 240px;
+    margin: 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    overflow: hidden;
+}

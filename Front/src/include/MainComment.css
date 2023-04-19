@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.maincomment {
+    width: 100%;
+    /* border: 1px solid #000; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.maincomment p:nth-child(1){
+    font-size: 32px;
+    color: red;
+    font-weight: bold;
+}
+
+.maincomment p:not(:nth-child(1)){
+    font-size: 24px;
+    color: #a1a1a1;
+}

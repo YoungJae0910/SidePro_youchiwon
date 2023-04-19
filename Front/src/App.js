@@ -1,9 +1,18 @@
-import logo from "./logo.svg";
+import React from 'react';
+import "./reset.css";
+import Header from './include/Header';
+import Main from './component/Main';
+
 import "./App.css";
-import Test from "./component/Test";
+
 
 function App() {
-  return <Test />;
+  return (
+    <div>
+      <Header/>
+      <Main/>
+    </div>
+  );
 }
 
 export default App;

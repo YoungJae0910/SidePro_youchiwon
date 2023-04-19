@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.footer {
+
+    width: 100%;
+    background-color: #076fff;
+    padding: 0 15%;
+  }
+  .footer article{
+    padding-top: 10px;
+    color: #fff;
+  }
+  .footer article ul {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .footer article ul li{
+    font-weight: 300;
+    font-size: 12px;
+    padding-left: 20px;
+    margin-bottom: 8px;
+  }
+  .footer article ul li:nth-child(1) {
+    margin-top: 10px;
+  }

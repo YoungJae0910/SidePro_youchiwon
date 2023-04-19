@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.top {
+    height: 1000px;
+    background-image: url(../images/main_top.png);
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    /* background-color: rgba(255,255,255,0.2); */
+    background-color: rgba(017,169,254,0.2);
+
+}

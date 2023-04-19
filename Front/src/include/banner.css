@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    width: 1600px;
+}
+.banner ul {
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 50px;
+    width: 100%;
+}
+.banner ul li {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+}
+.banner ul li div {
+    width: 20px;
+    height: 20px;
+    border-radius: 32px;
+    background-color:red;
+}

@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.main-scrolldown{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+    /* border: 1px solid #000; */
+}
+.main-scrolldown p {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.main-scrolldown div {
+    margin-top: 10px;
+    position: relative;
+    bottom: 0;
+}
+.main-scrolldown .line1{
+    position: relative;
+    /* left: 50%; */
+    left: calc(50% - 15px);
+    transform: translateX(-50%);
+    transform: rotate(135deg);
+    width: 4px;
+    height: 24px;
+    background-color: red;
+    border-radius: 32px;
+    cursor: pointer;
+}
+.main-scrolldown .line2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: rotate(-135deg);
+    width: 4px;
+    height: 24px;
+    background-color: red;
+    border-radius: 32px;
+    top: -34px;
+    cursor: pointer;
+}
